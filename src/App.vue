@@ -65,7 +65,7 @@
           </button>
           <div class="theme-toggler" @click="changeTheme()">
 
-            <i class="uil uil-sun " :class="darkTheme ? null : 'active'"></i>
+            <i class="uil uil-sun " :class="darkTheme ? null : 'active' "></i>
             <i class="uil uil-moon" :class="darkTheme ? 'active' : null"></i>
           </div>
           <div class="profile">
@@ -156,6 +156,7 @@ export default {
   data() {
     return {
       isActive: null,
+      darkTheme:false,
       updates:[{
   "username": "Feodor",
   "notification": "SM55 W524 5607 186N FIKU RU9M OLD",
